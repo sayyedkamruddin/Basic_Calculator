@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari&family=Ubuntu:wght@300&display=swap');
+
+
+* {
+    font-family: 'Anek Devanagari', sans-serif;
+}
+
+#calculator {
+    border: 2px solid red;
+    width: 350px;
+    height: 540px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: rgb(63, 61, 61);
+}
+
+#output {
+    /* margin: 0px 20px 20px 20px ; */
+    width: 290px;
+    height: 30px;
+    padding: 0px 5px;
+    font-size: 30px;
+    font-weight: bold;
+    border: none;
+    margin: 15px 0px;
+    border-radius: 5PX;
+    outline: none;
+    text-align: right;
+    background-color: transparent;
+
+}
+
+#textbar {
+
+    border: 1px solid black;
+    width: 300px;
+    height: 50px;
+    margin: 30px auto;
+    border-radius: 5px;
+    background-color: #D0E5A8;
+text-align: right;
+
+
+
+
+}
+
+#btn-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 0px 0px 0px 24px;
+    width: 328px;
+    row-gap: 20px;
+
+
+}
+
+.btns {
+    text-align: center;
+
+    width: 55px;
+    height: 55px;
+    font-size: 30px;
+    background-color: rgb(137, 134, 134);
+    color: white;
+    padding: 0px;
+    border: none;
+    border-radius: 3px;
+
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.exp {
+    background-color: #65C7D0;
+    text-align: center;
+     width: 55px;
+    height: 55px;
+    font-size: 30px;
+    color: white;
+    padding: 0px;
+    border: none;
+    border-radius: 3px;
+
+}
+
+.eq {
+    /* background-color: #EB5D5E; */
+    background-color: orange;
+    text-align: center;
+     width: 55px;
+    height: 55px;
+    font-size: 30px;
+    color: white;
+    padding: 0px;
+    border: none;
+    border-radius: 3px;
+}
+/* .btns:hover{
+    background-color: rgb(122, 121, 121);
+
+} */
+.btns:active{
+    background-color: rgb(97, 95, 95);
+
+}
+.exp:active{
+    background-color: #1ca0ac;
+
+}
+.eq:active{
+    /* background-color: #cc3232; */
+    background-color: rgb(177, 118, 7);
+
+
+}
+#can{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 24px;
+    column-gap: 12px;
+}
+#c-btn{
+    width: 138px; 
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 3px;
+border: none;
+
+
+}
+#x-btn{
+    background-color: rgb(244, 27, 27);
+color: white;
+border: none;
+    width: 138px; 
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 3px;
+
+}
